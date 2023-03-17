@@ -1,0 +1,16 @@
+name: Vote4Weathert
+main: com.destrat.Vote4Weather.Main
+version: 1.0
+api-version: 1.18
+author: destrat
+description: vote for disabling wether on server
+
+commands:
+  weathervoteclear:
+     usage: /voteclear
+     description: voting for clear the weather
+     permission: WeatherVote.Clear
+  weathervotekeep:
+     usage: /votekeep
+     description: Voting for keep the weather
+     permission: WeatherVote.Keep
